@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing sound</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/cd5ff6cb3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="con">
+        <div class="soundbox" onclick="playAudio('audio1',this)">
+            <i class="fa-brands fa-pagelines"></i>
+            <audio id="audio1" src="sound/nature.mp3" preload="auto"></audio>
+                </div>
+
+            <div class="soundbox" onclick="playAudio('audio2',this)">
+                <i class="fa-solid fa-water"></i>
+                <audio id="audio2" src="sound/ocean.mp3" preload="auto"></audio>
+
+                </div>
+
+        <div class="soundbox" onclick="playAudio('audio3',this)">
+                <i class="fa-solid fa-dove"></i>
+                <audio id="audio3" src="sound/brid.mp3" preload="auto"></audio>
+                    </div>
+                    
+        <div class="soundbox" onclick="playAudio('audio4',this)">
+                <i class="fa-solid fa-moon"></i>
+                <audio id="audio4" src="sound/night.mp3" preload="auto"></audio>
+                    </div>
+
+                </div>
+            
+</body>
+</html>
